@@ -1,0 +1,32 @@
+{
+    "name": "Linkedin Copilot",
+    "version": "1.0.0",
+    "description": "scrape data from linkedin",
+    "main": "/lib/scraper.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/francisbrero/linkedin-scraper.git"
+    },
+    "keywords": [
+      "linkedin",
+      "scraper",
+      "enrichment"
+    ],
+    "author": "francis@madkudu.com",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/francisbrero/linkedin-scraper/issues"
+    },
+    "homepage": "https://github.com/francisbrero/linkedin-scraper#readme",
+    "engines": {
+      "node": "17.2.0",
+      "npm": "8.3.0"
+    },
+    "dependencies": {
+      "puppeteer": "21.0.3",
+      "dotenv": "16.3.1"
+    }
+  }
