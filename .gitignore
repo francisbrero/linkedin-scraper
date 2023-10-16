@@ -1,7 +1,10 @@
-*/.env
-*/venv
-*/data
+.env
+/venv
+/data/*
 */.git
 */.idea
 */.vscode
 */.pytest_cache
+/node_modules
+/debug/*
+package-lock.json
